@@ -8,8 +8,9 @@ cwlVersion: v1.0
 doc: |
   A Docker container for SV analysis using Delly tool. 
    
-dct:creator:
-  foaf:name: Anmol J. Hemrom
+s:author:
+  - class: s:Person
+    s:name: Anmol J. Hemrom
 
 requirements:
   - class: DockerRequirement
