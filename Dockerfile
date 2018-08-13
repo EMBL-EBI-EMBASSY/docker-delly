@@ -10,5 +10,6 @@ COPY bin/delly_v0.7.8_parallel_linux_x86_64bit /usr/local/bin/delly_parallel
 
 RUN groupadd -r -g 1000 centos && useradd -r -g centos -u 1000 -m centos
 USER centos
+WORKDIR /home/centos
 
 CMD ["/bin/bash"]
